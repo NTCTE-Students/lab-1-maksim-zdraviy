@@ -14,6 +14,7 @@
   </form>
 </body>
 </html>
+
 <?php
   if (isset($_POST['name'])) {
     print('Привет, ' . $_POST['name']);
